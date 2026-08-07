@@ -1,0 +1,28 @@
+# Python / Django
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+db.sqlite3
+*.log
+
+# Django local files
+.env
+.env.*
+staticfiles/
+media/
+
+# Vue / Node
+frontend/node_modules/
+frontend/dist/
+.pnpm-store/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
